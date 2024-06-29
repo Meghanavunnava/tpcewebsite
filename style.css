@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.headbox{
+    border:solid 2px;
+    height: 160px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 2px;
+    height:160px;
+}
+#box1{
+    width: 160px;
+}
+#box2{
+    width: 1400px;
+    background-color:violet
+}
+#clgname{
+    font-size: 45px;
+    color: black;
+    
+}
+#autonomous{
+    font-size:30px;
+}
+#NAAC{
+    font-size: 30px;
+}
+#hnk{
+    font-size: 20px;
+}
+#scrolltext{
+    color: blueviolet;
+    font-style:times new roman;
+}
+#nav{
+    border: solid 2px;
+    height: 40px;
+}
+ul li{
+    border: solid 2px;
+    height: 40px;
+    width: 164px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color:plum
+}
+ul{
+    list-style: none;
+}
+ ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+ }
+ ul li ul li{
+    display: none;
+ }
+ ul li:hover ul li{
+    display: block;
+ }
+ ul li:hover{
+    background-color:magenta;
+ }
+ .obox{
+    border: solid 1px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+ }
+ #in1,#in2,#in3{
+    border: solid 1px;
+    height: 330px;
+    z-index: -1;
+ }
+ #in1{
+    width: 600px;
+    background-image: url(iso.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 330px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes imgchange{
+    20%{
+        background-image: url(industrial\ visit.jpeg);
+    }
+    40%{
+        background-image: url(josh.jpg);
+    }
+    60%{
+        background-image: url(pulse24.jpeg);
+    }
+    80%{
+        background-image: url(building.webp);
+    }
+ }
+ #in2{
+    width: 500px;
+ }
+ #in3{
+    width: 400px;
+ }
+ #name1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+ }
+ #pbox{
+    border: solid 2px;
+    height: 280px;
+ }
+ #placemwnts{
+    height: 300px;
+    width:200px
+ }
